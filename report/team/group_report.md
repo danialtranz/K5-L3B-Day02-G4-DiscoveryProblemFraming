@@ -6,7 +6,7 @@
 ## 1. Thông tin nhóm
 
 - Tên nhóm: G4
-- Thành viên: Đức, Vũ, Hùng, Duy, Hưng — xem thêm `TEAM.md`
+- Thành viên: Đức, Thanh, Hùng, Duy, Hưng — xem thêm `TEAM.md`
 - Candidate problem được chọn (1 câu): Khi nộp hồ sơ thực tập nhiều công ty, sinh viên CNTT/AI muốn đối soát JD với CV nhanh và đủ từ khóa, để giảm thời gian tùy biến hồ sơ và giảm rủi ro bị loại sớm ở vòng lọc
 - Quyết định cuối: **Go, phạm vi nhỏ** (dùng tool/checklist có sẵn + HITL; không tự xây scorer)
 
@@ -18,18 +18,18 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | Hùng | Khi làm dự án nhóm, tôi muốn theo dõi thay đổi code của các thành viên để tránh xung đột và cập nhật code kịp thời | Thành viên nhóm phát triển phần mềm | Xem và xử lý conflict (~10–20 phút/lần) | Baseline 10–20 phút lấy từ đâu — đã bấm giờ conflict thật trên repo nhóm chưa, hay chỉ ước lượng? (Vũ hỏi) |
+| 1 | Hùng | Khi làm dự án nhóm, tôi muốn theo dõi thay đổi code của các thành viên để tránh xung đột và cập nhật code kịp thời | Thành viên nhóm phát triển phần mềm | Xem và xử lý conflict (~10–20 phút/lần) | Baseline 10–20 phút lấy từ đâu — đã bấm giờ conflict thật trên repo nhóm chưa, hay chỉ ước lượng? (Thanh hỏi) |
 | 2 | Hùng | Khi gặp lỗi lập trình, tôi muốn tìm được nguyên nhân và hướng sửa phù hợp để tiếp tục phát triển ứng dụng | Sinh viên IT / lập trình viên | Đọc log, tìm hướng xử lý và thử giải pháp (~15–45 phút/lỗi) | Nếu checklist debug + tài liệu lỗi thường gặp đã giảm được phần lớn thời gian thì vì sao chưa thử Rule trước khi nghĩ tới AI? (Đức hỏi) |
 | 3 | Duy | Khi nhận ticket hỗ trợ, tôi muốn phân loại đúng và điều phối đúng bộ phận nhanh, để giảm chuyển sai và khách phải chờ | Nhân viên hỗ trợ / điều phối ticket | Đọc nội dung + quyết định bộ phận nhận; dễ chuyển sai / chuyển tiếp nhiều lần | Đã có tỷ lệ phân loại sai hoặc số lượt chuyển tiếp đo được chưa, hay mới chỉ cảm nhận? Rule theo từ khóa/danh mục đã thử đến đâu? (Hưng hỏi) |
 | 4 | Duy | Khi kiểm tra hồ sơ hành chính, tôi muốn phát hiện thông tin thiếu hoặc sai lệch sớm, để không phải trả đi trả lại nhiều vòng | Nhân viên hành chính / tiếp nhận hồ sơ | Đọc và đối chiếu nhiều tài liệu; mất thời gian với khối lượng hồ sơ lớn | Biểu mẫu điện tử + checklist bắt buộc field đã đủ giảm bao nhiêu % hồ sơ lỗi trước khi cần hỗ trợ đọc tài liệu? (Hùng hỏi) |
-| 5 | Duy | Khi lên kế hoạch nhập nguyên liệu quán ăn, tôi muốn dự báo nhu cầu sát hơn, để giảm lãng phí và hạn chế hết món | Chủ quán / nhân viên kho–bếp | Ước lượng nhu cầu theo cảm tính hoặc số liệu thô; sai số dẫn đến dư hoặc thiếu | Dữ liệu bán hàng hiện có đủ sạch và đủ dài để đo sai số dự báo chưa? Phương pháp trung bình động/mùa vụ đơn giản đã thử chưa? (Vũ hỏi) |
+| 5 | Duy | Khi lên kế hoạch nhập nguyên liệu quán ăn, tôi muốn dự báo nhu cầu sát hơn, để giảm lãng phí và hạn chế hết món | Chủ quán / nhân viên kho–bếp | Ước lượng nhu cầu theo cảm tính hoặc số liệu thô; sai số dẫn đến dư hoặc thiếu | Dữ liệu bán hàng hiện có đủ sạch và đủ dài để đo sai số dự báo chưa? Phương pháp trung bình động/mùa vụ đơn giản đã thử chưa? (Thanh hỏi) |
 | 6 | Đức | Khi nộp hồ sơ thực tập 5–8 công ty, tôi muốn đối soát JD với CV nhanh để bổ sung đúng từ khóa và project | Sinh viên năm 3–4 CNTT/AI | So khớp JD–CV + tìm từ khóa thiếu + viết lại (~50–55'/bộ; tổng ~75'/bộ) | Mỗi ATS chấm khác nhau — “match 90% từ khóa” đo theo JD nào? Bảng Excel đối chiếu đã thử bao nhiêu bộ trước khi cần AI? (Duy hỏi) |
 | 7 | Đức | Khi sắp nộp bài lab AI, tôi muốn tự check nhanh 11 tiêu chí rubric để không bị trừ điểm hình thức | Sinh viên lớp thực hành AI (~100 người) | Dò từng mục + đếm checklist theo rubric (~18–20'; dễ sót) | Tiêu chí định tính (vd. “độ sâu reflection”) check thế nào? Script regex/checklist đã cover được bao nhiêu % lỗi hình thức? (Hưng hỏi) |
-| 8 | Đức | Khi họp kỹ thuật xong, tôi muốn lấy đúng quyết định + action item (ai–việc–deadline) để recap/tạo ticket trong ~15 phút, không nghe lại 60' | Thư ký họp / Tech Lead / PM nhóm kỹ thuật | Nghe lại transcript + lọc quyết định & người nhận task | Transcript tiếng Việt lẫn thuật ngữ code sai nhiều thì sao? Đã thử template recap + ghi note trong họp chưa? (Vũ hỏi) |
+| 8 | Đức | Khi họp kỹ thuật xong, tôi muốn lấy đúng quyết định + action item (ai–việc–deadline) để recap/tạo ticket trong ~15 phút, không nghe lại 60' | Thư ký họp / Tech Lead / PM nhóm kỹ thuật | Nghe lại transcript + lọc quyết định & người nhận task | Transcript tiếng Việt lẫn thuật ngữ code sai nhiều thì sao? Đã thử template recap + ghi note trong họp chưa? (Thanh hỏi) |
 | 9 | Hưng | Khi lead mới về từ web/ads/sự kiện, tôi muốn phân loại nhu cầu–ngân sách và giao đúng Sales nhanh, để không bỏ sót hoặc giao sai người | Lead Ops / Sales Admin; Sales Consultant; khách chờ | Bước 3–4 phân loại + routing (~8–15'/lead; median Time-to-Assign ~10') | 10 phút/lead là đo thật hay giả định lab? Form chuẩn + rule CRM đã cover bao nhiêu % trước khi cần LLM/Agent? (Đức hỏi) |
 | 10 | Hưng | Khi khách hỏi giá/pháp lý/ưu đãi dự án, tôi muốn tìm đúng thông tin đang hiệu lực nhanh, để tư vấn kịp và không nói sai | Sales Consultant / Sales Advisor BĐS | Bước 2–3 tra cứu PDF/Excel/slide + so sánh (~10–20'/lượt) | “Tài liệu đang hiệu lực” lấy từ nguồn nào? Thư viện 1 nguồn sự thật + version đã thử chưa, hay nhảy thẳng RAG? (Hùng hỏi) |
-| 11 | Vũ | Khi cần báo giá căn hộ chuyển nhượng, tôi muốn có mức giá tham chiếu nhanh từ giao dịch–vị trí–diện tích–tình trạng, để tư vấn kịp và giảm thời gian gom thông tin thị trường | Sale BĐS (chuyển nhượng); khách mua/bán | Gom dữ liệu giao dịch + đặc điểm căn rồi ước giá thủ công; dễ lệch nếu data cũ / không phản ánh thực tế căn | MAE/MAPE và “tỷ lệ khách chấp nhận giá” đo trên bộ dữ liệu nào? Đã có bảng so sánh căn tương đương (comps) thủ công chưa, hay nhảy thẳng Agent định giá? (Hưng hỏi) |
-| 12 | Vũ | Khi rà soát hợp đồng mua bán, tôi muốn phát hiện sớm điều khoản bất lợi / thiếu sót, để sale và khách biết chỗ cần hỏi lại trước khi ký | Sale BĐS; khách; (hậu kiểm) chuyên viên pháp lý | Đọc hợp đồng dài, đối chiếu checklist điều khoản; dễ bỏ sót hoặc diễn giải sai quy định phức tạp | Checklist theo loại hợp đồng + luật sư/legal review đã cover case nào? AI bỏ sót điều khoản quan trọng thì ai chịu trách nhiệm trước khi ký? (Hùng hỏi) |
+| 11 | Thanh | Khi cần báo giá căn hộ chuyển nhượng, tôi muốn có mức giá tham chiếu nhanh từ giao dịch–vị trí–diện tích–tình trạng, để tư vấn kịp và giảm thời gian gom thông tin thị trường | Sale BĐS (chuyển nhượng); khách mua/bán | Gom dữ liệu giao dịch + đặc điểm căn rồi ước giá thủ công; dễ lệch nếu data cũ / không phản ánh thực tế căn | MAE/MAPE và “tỷ lệ khách chấp nhận giá” đo trên bộ dữ liệu nào? Đã có bảng so sánh căn tương đương (comps) thủ công chưa, hay nhảy thẳng Agent định giá? (Hưng hỏi) |
+| 12 | Thanh | Khi rà soát hợp đồng mua bán, tôi muốn phát hiện sớm điều khoản bất lợi / thiếu sót, để sale và khách biết chỗ cần hỏi lại trước khi ký | Sale BĐS; khách; (hậu kiểm) chuyên viên pháp lý | Đọc hợp đồng dài, đối chiếu checklist điều khoản; dễ bỏ sót hoặc diễn giải sai quy định phức tạp | Checklist theo loại hợp đồng + luật sư/legal review đã cover case nào? AI bỏ sót điều khoản quan trọng thì ai chịu trách nhiệm trước khi ký? (Hùng hỏi) |
 
 ### 2.2. Cluster
 
@@ -38,10 +38,10 @@ Nhóm gom **12 candidate** đã pitch (đủ 5 thành viên) theo **cùng một 
 | Cluster | Các candidate | Pattern chung | Nhận định nhanh của nhóm |
 |---|---|---|---|
 | A — Phân loại & điều phối | #3 Ticket hỗ trợ (Duy), #9 Lead → Sales (Hưng) | Đầu vào đến liên tục → người đọc tay → gán đúng người/bộ phận; sai thì chuyển tiếp / khách chờ | Cùng “routing problem”. Metric đẹp (time-to-assign, % chuyển sai) nhưng **bằng chứng baseline** và quyền tiếp cận vận hành thật còn mỏng |
-| B — Đối chiếu tài liệu / checklist | #4 Hồ sơ hành chính (Duy), #6 JD ↔ CV (Đức), #7 Rubric lab (Đức), **#12 Rà soát hợp đồng (Vũ)** | Hai nguồn (chuẩn/checklist vs bản đang đọc) đặt cạnh nhau → dò tay → chỉ ra chỗ thiếu/rủi ro | Pattern rõ. #6/#7 dễ kiểm chứng với SV; **#12** cùng pattern nhưng domain pháp lý + rủi ro bỏ sót điều khoản → feasibility/viability lab thấp hơn |
+| B — Đối chiếu tài liệu / checklist | #4 Hồ sơ hành chính (Duy), #6 JD ↔ CV (Đức), #7 Rubric lab (Đức), **#12 Rà soát hợp đồng (Thanh)** | Hai nguồn (chuẩn/checklist vs bản đang đọc) đặt cạnh nhau → dò tay → chỉ ra chỗ thiếu/rủi ro | Pattern rõ. #6/#7 dễ kiểm chứng với SV; **#12** cùng pattern nhưng domain pháp lý + rủi ro bỏ sót điều khoản → feasibility/viability lab thấp hơn |
 | C — Tra cứu & chẩn đoán | #1 Git conflict (Hùng), #2 Debug lỗi (Hùng), #10 Tra cứu tài liệu dự án BĐS (Hưng) | Thông tin nằm rải → tìm/đọc/so sánh → mới hành động được | Pain thật nhưng scope dễ phình. #1–#2 đã có Rule/checklist mạnh → AI khó “thắng” No AI |
 | D — Tái tạo quyết định sau họp | #8 Action item từ họp (Đức) | Nghe lại / đọc transcript → lọc quyết định + người nhận + deadline | Đầu vào–đầu ra rõ; phụ thuộc chất lượng transcript tiếng Việt + thuật ngữ kỹ thuật |
-| E — Dự báo / ước lượng từ dữ liệu | #5 Nguyên liệu quán ăn (Duy), **#11 Định giá căn hộ chuyển nhượng (Vũ)** | Gom tín hiệu dữ liệu → ra một con số định hướng quyết định (nhập hàng / báo giá) | Metric (MAE/MAPE, phút) nghe chặt nhưng **data giao dịch BĐS cập nhật + ground truth** khó có trong lab; dễ trượt sang “xây Agent định giá” |
+| E — Dự báo / ước lượng từ dữ liệu | #5 Nguyên liệu quán ăn (Duy), **#11 Định giá căn hộ chuyển nhượng (Thanh)** | Gom tín hiệu dữ liệu → ra một con số định hướng quyết định (nhập hàng / báo giá) | Metric (MAE/MAPE, phút) nghe chặt nhưng **data giao dịch BĐS cập nhật + ground truth** khó có trong lab; dễ trượt sang “xây Agent định giá” |
 
 **Quy tắc gom cluster đã thống nhất:** nếu hai candidate chỉ khác “ngành” nhưng cùng bước nghẽn nhận thức (đọc → phân loại → gán / đối chiếu / ước lượng), thì cùng một cluster. Ngược lại, không nhét Lead Scoring và JD–CV vào một cluster chỉ vì cả hai đều “có AI”. Tên sản phẩm kiểu *ResaleValuer / ContractGuard Agent* bị gạch khỏi tầng opportunity.
 
@@ -92,8 +92,6 @@ Opportunity A và B “sạch” nhất để shortlist vì: actor chỉ ra đư
 | B — Đối chiếu (đối trọng trong lớp) | **#7 Self-check rubric lab (Đức)** | Actor ~100 SV, lặp mỗi lab, metric điểm hình thức; nhưng Rule/script có thể đã đủ |
 | A — Phân loại & điều phối | **#9 Lead → giao Sales (Hưng)** | Quy trình + HITL + 4 mức can thiệp rất rõ; impact gần doanh thu; baseline còn là giả định lab |
 
-
-
 **Thang điểm:** 1 = yếu / thiếu bằng chứng; 5 = rõ, đo được, nhóm làm được trong lab. Điểm là kết quả thảo luận từng tiêu chí (không lấy trung bình cảm tính một phát).
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
@@ -130,13 +128,13 @@ Opportunity A và B “sạch” nhất để shortlist vì: actor chỉ ra đư
 | #1 Git conflict, #2 Debug | Cluster C; workaround Rule/checklist mạnh; impact cá nhân nhưng khó chứng minh AI cần thiết hơn tài liệu |
 | #10 Tra cứu tài liệu dự án BĐS | Cùng cluster C; cần kho tài liệu “nguồn sự thật” — feasibility thấp trong lab |
 | #5 Nguyên liệu quán | Lệch outcome và domain; không shortlist |
-| #11 Định giá căn chuyển nhượng (Vũ) | Cluster E; metric MAE/MAPE hấp dẫn nhưng thiếu data giao dịch cập nhật + ground truth trong lab; dễ solution-first (ResaleValuer Agent) |
-| #12 Rà soát hợp đồng (Vũ) | Cùng cluster B với #6 nhưng rủi ro pháp lý / bỏ sót điều khoản cao; bắt buộc legal HITL → vừa sức lab kém hơn JD↔CV |
+| #11 Định giá căn chuyển nhượng (Thanh) | Cluster E; metric MAE/MAPE hấp dẫn nhưng thiếu data giao dịch cập nhật + ground truth trong lab; dễ solution-first (ResaleValuer Agent) |
+| #12 Rà soát hợp đồng (Thanh) | Cùng cluster B với #6 nhưng rủi ro pháp lý / bỏ sót điều khoản cao; bắt buộc legal HITL → vừa sức lab kém hơn JD↔CV |
 
 **Xử lý bất đồng:**
 
 - **Hưng** nghiêng về #9 vì gần bài toán doanh nghiệp và minh họa đủ Rule / Workflow / Agent / HITL.
-- **Vũ** nghiêng về bài BĐS (#11/#12) vì gần vận hành sale thực tế; nhóm ghi nhận nhưng xếp sau vì data/pháp lý khó kiểm chứng trong buổi lab.
+- **Thanh** nghiêng về bài BĐS (#11/#12) vì gần vận hành sale thực tế; nhóm ghi nhận nhưng xếp sau vì data/pháp lý khó kiểm chứng trong buổi lab.
 - **Đức** và phần lớn nhóm giữ #6 vì lab chấm *chất lượng lập luận + kiểm chứng*, không chấm độ “enterprise”.
 - Thỏa thuận: **chốt #6 làm candidate chính**. #9, #7, #11, #12 ghi vào “hướng tiếp theo”. Ở CP4, nếu kiểm chứng JD–CV cho thấy pain yếu (ví dụ Excel đã đủ dưới 20'), nhóm **được phép quay lại xét #9** — đây là ngưỡng đổi hướng có điều kiện, không phải bỏ phiếu lại cảm tính.
 
@@ -478,7 +476,7 @@ Vì sao:
 
 - Mẫu phỏng vấn chỉ **n = 2**; baseline phút cần bổ sung bằng log bấm giờ của cả nhóm.
 - Chưa đo nhân quả “tailor → tỷ lệ callback” (ngoài scope lab; dễ nhiễu).
-- Đã bổ sung đủ pitch của **Vũ** (#11 định giá chuyển nhượng, #12 rà soát hợp đồng); không đổi candidate đã chốt (#6) vì không vượt ngưỡng đổi hướng.
+- Đã bổ sung đủ pitch của **Thanh** (#11 định giá chuyển nhượng, #12 rà soát hợp đồng); không đổi candidate đã chốt (#6) vì không vượt ngưỡng đổi hướng.
 - **Hướng tiếp theo:** #9 Lead phân loại & giao Sales; #7 self-check rubric lab; #11/#12 nếu có data/legal partner; cải thiện CV gốc một lần để tailor còn 10–15' (đúng gợi ý Resume Worded).
 
 ## 10. Tài liệu tham khảo
