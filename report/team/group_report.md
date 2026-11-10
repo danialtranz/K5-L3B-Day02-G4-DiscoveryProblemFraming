@@ -92,8 +92,6 @@ Opportunity A và B “sạch” nhất để shortlist vì: actor chỉ ra đư
 | B — Đối chiếu (đối trọng trong lớp) | **#7 Self-check rubric lab (Đức)** | Actor ~100 SV, lặp mỗi lab, metric điểm hình thức; nhưng Rule/script có thể đã đủ |
 | A — Phân loại & điều phối | **#9 Lead → giao Sales (Hưng)** | Quy trình + HITL + 4 mức can thiệp rất rõ; impact gần doanh thu; baseline còn là giả định lab |
 
-
-
 **Thang điểm:** 1 = yếu / thiếu bằng chứng; 5 = rõ, đo được, nhóm làm được trong lab. Điểm là kết quả thảo luận từng tiêu chí (không lấy trung bình cảm tính một phát).
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
