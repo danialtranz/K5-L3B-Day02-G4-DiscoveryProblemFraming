@@ -4,18 +4,19 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: G4
+- Candidate problem nhóm chọn (1 câu): Khi nộp hồ sơ thực tập nhiều công ty, sinh viên CNTT/AI muốn đối soát JD với CV nhanh và đủ từ khóa, để giảm thời gian tùy biến hồ sơ và giảm rủi ro bị loại sớm ở vòng lọc
+- Quyết định cuối (Go / Not Yet / No-Go): Go, phạm vi nhỏ
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Bùi Ngọc Hùng | 2A202603770 | | Ngochung1772k4 |
+| 2 | Vũ Quang Thanh | 2A202603736 | | thanhvu101 |
+| 3 | Phạm Minh Đức | 2A202603758 | | ducpham13 |
+| 4 | Đào Đức Duy | 2A202603900 | | D121104 |
+| 5 | Trần Cảnh Hưng | 2A202603759 | | danialtranz |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -37,7 +38,79 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### BuiNgocHung-2A202603770
+
+**Phần việc phụ trách:**
+
+-
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+### VuQuangThanh-2A202603736
+
+**Phần việc phụ trách:**
+
+-
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+### PhamMinhDuc-2A202603758
+
+**Phần việc phụ trách:**
+
+-
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+### DaoDucDuy-2A202603900
+
+**Phần việc phụ trách:**
+
+-
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+### TranCanhHung-2A202603759
 
 **Phần việc phụ trách:**
 
