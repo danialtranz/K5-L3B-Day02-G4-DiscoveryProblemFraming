@@ -152,16 +152,16 @@ HIỆN TẠI — mỗi case giao sai thêm ~10–30 phút (ước lượng)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch đúng 2 candidate: **#9** Lead → giao Sales và **#10** tra cứu tài liệu dự án BĐS (không pitch thêm card khác) | Đưa vào pool 12 candidate; #9 sau đó vào shortlist vì quy trình + HITL + so sánh 4 mức rõ |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: (1) Duy #3 — đã có tỷ lệ phân loại sai / số lượt chuyển tiếp đo được chưa, Rule theo từ khóa đã thử đến đâu? (2) Đức #7 — tiêu chí định tính check thế nào; script/checklist cover bao nhiêu % lỗi hình thức? (3) Thanh #11 — MAE/MAPE đo trên data nào; đã có comps thủ công chưa hay nhảy thẳng Agent? Không hỏi thêm ngoài 3 câu này | Giúp nhóm tách pain khỏi solution và soi baseline trước khi chấm shortlist |
+| Nhận phản biện | Câu hỏi tôi nhận được (Đức hỏi #9): 10 phút/lead là đo thật hay giả định lab? Form chuẩn + rule CRM đã cover bao nhiêu % trước khi cần LLM/Agent? | Tôi đã sửa gì: Phần **10 phút** — tự nhắn một bên thật và thấy khoảng 10 phút sau sale mới trả về, nên giữ được tín hiệu thời gian thực tế. Phần **% cover trước khi cần LLM** vẫn chỉ là giả định lab, không bịa số |
+| Gom cluster / cây OST | Vai trò nhóm trưởng: điều phối thảo luận theo nút thắt nhận thức (không gom theo ngành), rồi **tự ghi** cluster + OST rút gọn vào báo cáo nhóm | Nhóm có khung chung trước khi chấm điểm; tránh nhét Lead Scoring và JD–CV vào một cluster chỉ vì “đều có AI” |
+| Chọn candidate problem | Ban đầu nghiêng #9; sau thảo luận **chốt #6** vì domain #9 team chưa có kinh nghiệm vận hành thật, còn pain JD↔CV thì cả nhóm đã trải nghiệm nên thảo luận rất sôi nổi và kiểm chứng được trong lab | Candidate chính = #6; #9 ghi “hướng tiếp theo” kèm ngưỡng đổi hướng nếu pain #6 yếu |
+| Kiểm chứng / research | Desk research thêm: tìm các **complain trên Reddit** về tùy biến CV theo JD / từ khóa / ATS; thấy nhiều người kể pain tương tự. Điều phối nhóm thống nhất hướng kiểm chứng (không nhận hết phần PV/tool của từng người) | Bổ sung tín hiệu Value ngoài desk research sản phẩm; củng cố rằng pain không chỉ có trong nhóm |
+| Quy trình nhóm | Điều phối cả nhóm cùng nêu quan điểm rồi **thống nhất** quy trình trước/sau và bottleneck 3–5 | Có bản quy trình chung; metric thời gian neo vào phút/bộ thay vì “nghe có vẻ đúng” |
+| Problem Statement | Điều phối thống nhất actor / bottleneck / boundary; đặc biệt chốt **success metric = phút/bộ** (tiết kiệm thời gian khi tailor theo từng JD) | PS v0/v1 đo được bằng tự bấm giờ; không claim “đỗ mọi ATS” |
+| Mức can thiệp AI | Điều phối nhóm so 4 mức và chốt hướng **Workflow** (+ Rule tách required/preferred), không tự xây scorer | Khớp research thị trường đã có tool; giữ HITL |
+| Quyết định | Điều phối để nhóm chốt **Go, phạm vi nhỏ** (tool/checklist có sẵn + HITL) | Có quyết định có lý do theo 4 rủi ro; pilot nhỏ thay vì nhảy Agent |
 
 ---
 
@@ -171,10 +171,10 @@ HIỆN TẠI — mỗi case giao sai thêm ~10–30 phút (ước lượng)
 |---|---|---|---|---|
 | CP1 Scan | Nhờ AI giúp tách pain thuần khỏi phần giải pháp/tech stack trong bài toán lead scoring BĐS | Liệt kê đủ các pain quanh đoán độ nóng, dữ liệu bẩn, sai route, thiếu giải thích, HITL | Hay viết lại thành “xây LeadScorer Agent / multi-agent” hoặc gắn tên công ty | Giữ Job Story không chứa tên sản phẩm/AI/công ty; scan chỉ trong chuỗi lead scoring BĐS nói chung |
 | CP2 Problem Card | Đóng vai PM hoài nghi phản biện 3 card lead scoring BĐS | Chỉ ra bản đầu đang solution-first; metric chưa đo; dễ nhảy Agent sớm | Gợi ý nhồi full multi-agent/tech stack vào Problem Card | Tách 3 lát cắt pain (score / enrich / route+HITL); cảm nhận Workflow; tech stack để sau lab |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Dùng AI **khiêm tốn**: nhờ gợi ý hướng tìm complain / từ khóa tìm trên Reddit và cách tóm tín hiệu Value | Gợi ý góc nhìn “người dùng than gì”, giúp mình biết cần đọc complaint thật chứ không chỉ trang marketing tool | Dễ phóng đại thành “mọi người đều bị ATS loại vì thiếu từ khóa” hoặc nhảy sang giải pháp chatbot | Chỉ giữ tín hiệu sau khi **tự đọc** complaint; không biến lời AI thành bằng chứng; vẫn ưu tiên nguồn mở + quan sát Reddit của mình |
+| CP5 Quy trình | Hầu như không nhờ AI viết hộ; chỉ hỏi nhanh cách diễn đạt bước bottleneck cho rõ | Nhắc tách bước so khớp / liệt kê gap / viết lại | Hay rút quy trình thành “upload CV → AI làm hết → nộp” | Giữ bản nhóm đã thống nhất: HITL duyệt gap + người tự viết; AI/tool chỉ hỗ trợ đoạn đối chiếu |
+| CP5–6 Problem Statement | Nhờ AI phản biện ngắn metric/boundary (1–2 vòng) | Chỉ ra rủi ro “chỉ đo tốc độ → CV nhanh nhưng kém trung thực” | Muốn nhét match score / “đỗ ATS” vào success metric | Chốt metric **phút/bộ** + checklist required cover trung thực; cấm claim đỗ ATS |
+| CP6 Mức can thiệp / quyết định | Hỏi AI khung so sánh No AI / Rule / Workflow / Agent cho bài JD↔CV | Nhắc không cần Agent nếu chuỗi bước đã cố định | Hay đẩy “tự xây agent tối ưu CV” dù thị trường đã có tool | Giữ kết luận nhóm: Workflow dùng sẵn + HITL; **Go phạm vi nhỏ**; không tự xây scorer |
 
 ---
 
@@ -184,17 +184,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Làm nhóm trưởng, tôi học được rằng một “ý tưởng hay” chưa đủ nếu nhóm không sống trong pain đó. Nghe Đức nói về đối soát JD–CV, cả phòng như sáng lên vì mọi người đều từng nộp thực tập, từng sửa CV lúc nửa đêm. Nghe Duy nói ticket/hồ sơ, Thanh nói định giá và hợp đồng, Hùng nói debug/git — tôi thấy pain nào cũng thật, nhưng độ “nhóm có thể kiểm chứng trong một buổi lab” thì khác nhau rất rõ. Bài học lớn nhất: lab này không chấm ý tưởng nghe enterprise nhất, mà chấm bài nào nhóm **hiểu domain và đo được**.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có. Lúc pitch, tên kiểu agent / RAG / scorer xen vào rất nhanh — kể cả bài lead của tôi cũng dễ trượt sang “xây hệ thống”. Nhóm nhận ra khi bắt đầu gom cluster: nếu gom theo ngành hoặc theo tên tool thì cây OST vỡ ngay. Cách xử lý của chúng tôi là gạch hết solution khỏi tầng opportunity, chỉ giữ nút thắt nhận thức (đối chiếu / phân loại / tra cứu…). Nhờ vậy shortlist mới so được No AI với Workflow thay vì thi xem ai vẽ kiến trúc đẹp hơn.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có — và đó là lần đáng nhớ nhất với tôi. Tôi nghiêng về #9 vì gần doanh nghiệp và minh họa đủ Rule / Workflow / Agent / HITL. Đức hỏi thẳng: 10 phút/lead đo thật hay giả định? Tôi không muốn “ngụy biện bằng lab”, nên tự nhắn một bên thật và thấy khoảng mười phút sau sale mới trả về — tín hiệu thời gian có thật. Nhưng phần “form/rule đã cover bao nhiêu % trước khi cần LLM” tôi vẫn không có số. Quan trọng hơn: nhìn quanh bàn, team không có kinh nghiệm Lead Ops, trong khi pain #6 thì ai cũng từng đau. Tôi đổi ý, chốt #6, và ghi #9 vào hướng tiếp theo. Đó không phải thua cuộc — đó là chọn bài nhóm có thể **chứng minh**.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Có. Khi lướt các complaint trên Reddit về chỉnh CV theo JD / từ khóa / ATS, tôi bất ngờ vì pain lặp lại ở rất nhiều ngữ cảnh khác nhau — không chỉ “sinh viên Việt Nam đi thực tập”. Nhiều người kể cảnh đọc JD, sợ thiếu keyword, sợ tối ưu quá đà, sợ tool chấm một điểm rồi không biết sửa gì. Điều đó củng cố Value của #6, đồng thời cảnh báo: đừng biến match score thành chân lý. Bất ngờ thứ hai nằm ở baseline thời gian — ước lượng ban đầu dễ cao; thực tế người dùng dao động mạnh (chỉnh kỹ thì lâu, nộp CV chung thì rất nhanh). Metric phút/bộ vì thế phải neo vào hành vi “có tailor”, không lấy số đẹp để tự huyễn.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất là **thống nhất một metric đủ chặt mà không gian dối**. Ai cũng muốn nghe “tăng tỷ lệ đỗ ATS”, nhưng không ai đo được ATS của nhà tuyển dụng trong lab. Với vai trò điều phối, tôi phải giữ nhóm ở chỗ đo được: **phút/bộ** khi tailor theo từng JD, kèm việc surface đúng gap mà không bịa skill. Viết boundary cũng khó vì phải đủ mạnh để chặn giải pháp “AI viết hộ cả CV rồi tự nộp”, nhưng vẫn để chỗ cho Workflow hỗ trợ đối chiếu.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ ép baseline sớm hơn: mỗi người bấm giờ ít nhất một bộ JD–CV thật ngay từ đầu CP4, thay vì để ước lượng sống lâu trong card. Tôi cũng sẽ phản biện mạnh hơn ở chỗ **phân công bằng chứng** — không phải để tranh công, mà để mỗi giả định trên Assumption Map có chủ sở hữu kiểm chứng rõ. Với #9, tôi sẽ chuẩn bị trước một quan sát vận hành nhỏ (như lần nhắn tin 10 phút) trước khi pitch, để khỏi bị hỏi lại mới chạy đi đo. Và tôi sẽ phản biện sớm hơn mọi lúc nhóm muốn “tự xây scorer” trong khi thị trường đã đầy tool.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Sinh viên CNTT/AI nộp nhiều vị trí thực tập mất thời gian ở bước đối chiếu JD với CV và liệt kê từ khóa/skill còn thiếu hoặc chưa được thể hiện. Quy trình hiện tại là mở hai nguồn, đọc–bôi yêu cầu, so khớp tay, liệt kê gap, viết lại rồi nộp; nút thắt nằm ở so khớp và viết lại. Metric nhóm chốt là giảm **phút/bộ** khi có tailor (hướng dưới khoảng 20 phút) kèm checklist required đã cover trung thực, không claim đỗ mọi ATS. Boundary: không bịa kinh nghiệm, không tự nộp, không biến match score thành chân lý tuyển dụng — người duyệt mọi dòng. Mức can thiệp phù hợp là **Workflow** (có lớp Rule tách required/preferred), dùng tool hoặc checklist có sẵn chứ không tự xây engine. Quyết định cuối: **Go, phạm vi nhỏ** — pilot vài bộ hồ sơ thật với HITL; nếu không giảm thời gian hoặc gợi ý skill ảo thì quay về Excel/checklist.
 
 ---
 
