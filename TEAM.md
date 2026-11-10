@@ -12,11 +12,11 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Bùi Ngọc Hùng | 2A202603770 | | Ngochung1772k4 |
-| 2 | Vũ Quang Thanh | 2A202603736 | | thanhvu101 |
-| 3 | Phạm Minh Đức | 2A202603758 | | ducpham13 |
-| 4 | Đào Đức Duy | 2A202603900 | | D121104 |
-| 5 | Trần Cảnh Hưng | 2A202603759 | | danialtranz |
+| 1 | Bùi Ngọc Hùng | 2A202603770 | Thành viên | Ngochung1772k4 |
+| 2 | Vũ Quang Thanh | 2A202603736 | Thành viên | thanhvu101 |
+| 3 | Phạm Minh Đức | 2A202603758 | Thành viên | ducpham13 |
+| 4 | Đào Đức Duy | 2A202603900 | Thành viên | D121104 |
+| 5 | Trần Cảnh Hưng | 2A202603759 | Trưởng nhóm | danialtranz |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
