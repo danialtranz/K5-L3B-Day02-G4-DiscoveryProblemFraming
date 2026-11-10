@@ -1,15 +1,15 @@
-# Báo cáo cá nhân — Bùi Ngọc Hưng
+# Báo cáo cá nhân — Bùi Ngọc Hùng
 
 > CP1–CP2 ghi lại các Problem Card cá nhân của tôi. Từ CP3 trở đi, nội dung phản ánh quá trình nhóm G4 chọn **Problem Card #6 — Đối soát JD ↔ CV khi ứng tuyển thực tập** của Đức, với quyết định **Go, phạm vi nhỏ**. Các số liệu ước lượng cần được phân biệt với kết quả đã đo.
 > Hướng dẫn: [docs/01-worksheet.md](../../docs/01-worksheet.md).
 
 ## 1. Thông tin học viên
 
-- Họ tên: Bùi Ngọc Hưng
+- Họ tên: Bùi Ngọc Hùng
 - MSSV: 2A202603770
 - Email trường (không bắt buộc):
 - Tên nhóm: G4
-- Link repo nhóm: [K5-L3-Day02-HH-DiscoveryProblemFraming](https://github.com/danialtranz/K5-L3-Day02-HH-DiscoveryProblemFraming)
+- Link repo nhóm: https://github.com/danialtranz/K5-L3B-Day02-G4-DiscoveryProblemFraming
 
 ---
 
